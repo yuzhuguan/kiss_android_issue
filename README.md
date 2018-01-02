@@ -1,6 +1,10 @@
 # kiss_android_issue
 开发android过程中的各种小问题，解决方案记录
 
+### Android Threading Performance
+
+!(视频)[http://v.youku.com/v_show/id_XMTQ4MDU3Nzc3Mg==.html?spm=a2h0k.8191407.0.0&from=s1.8-1-1.2]
+
 ### ubuntu16.04 无法启动模拟器
 升级到android8.1的sdk后，发现模拟器竟然无法启动了
 解决方法如下：
