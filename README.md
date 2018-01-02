@@ -1,7 +1,7 @@
 ### Table of Contents
 **[kiss_android_issue](#kiss_android_issue)**<br>
 **[Android_Threading_Performance](#Android_Threading_Performance)**<br>
-**[ubuntu16.04_cannot start emulator](#ubuntu16.04_无法启动模拟器)**<br>
+**[ubuntu16.04_cannot start emulator](#ubuntu16.04_cannot start emulator)**<br>
 
 ## kiss_android_issue
 
