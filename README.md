@@ -3,7 +3,8 @@
 
 ### Android Threading Performance
 
-!(视频)[http://v.youku.com/v_show/id_XMTQ4MDU3Nzc3Mg==.html?spm=a2h0k.8191407.0.0&from=s1.8-1-1.2]
+<iframe height=498 width=510 src='http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==' frameborder=0 'allowfullscreen'></iframe>
+
 
 ### ubuntu16.04 无法启动模拟器
 升级到android8.1的sdk后，发现模拟器竟然无法启动了
