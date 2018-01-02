@@ -2,8 +2,7 @@
 开发android过程中的各种小问题，解决方案记录
 
 ### Android Threading Performance
-
-<iframe height=498 width=510 src='http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==' frameborder=0 'allowfullscreen'></iframe>
+[![Watch the video](https://image.uc.cn/o/wemedia/s/upload/170522145088278ca289e4c87e4d83c0e8740a5ebc;,3,jpegx;3,310x)](http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==)
 
 
 ### ubuntu16.04 无法启动模拟器
