@@ -1,5 +1,7 @@
+[TOC]
+
 # kiss_android_issue
-开发android过程中的各种小问题，解决方案记录
+拥抱android各种技术，再来一个深深的kiss
 
 ### Android Threading Performance
 
