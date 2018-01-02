@@ -1,7 +1,7 @@
 ### Table of Contents
 **[kiss_android_issue](#kiss_android_issue)**<br>
 **[Android_Threading_Performance](#Android_Threading_Performance)**<br>
-**[ubuntu16.04_cannot start emulator](#ubuntu16.04_cannot start emulator)**<br>
+**[ubuntu16.04_cannot start emulator](#ubuntu16.04_cannot_start_emulator)**<br>
 
 ## kiss_android_issue
 
@@ -11,7 +11,7 @@
 
 [![alt text](https://vthumb.ykimg.com/0541040856CD0EEC6A0A490451CEE5A5)](http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==)
 
-## ubuntu16.04_cannot start emulator
+## ubuntu16.04_cannot_start_emulator
 
 升级到android8.1的sdk后，发现模拟器竟然无法启动了
 解决方法如下：
