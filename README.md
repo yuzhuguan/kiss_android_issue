@@ -3,7 +3,7 @@
 
 ### Android Threading Performance
 
-[![asciicast](https://vthumb.ykimg.com/0541040856CD0EEC6A0A490451CEE5A5)](http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==)
+[![alt text](https://vthumb.ykimg.com/0541040856CD0EEC6A0A490451CEE5A5)](http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==)
 
 
 ### ubuntu16.04 无法启动模拟器
