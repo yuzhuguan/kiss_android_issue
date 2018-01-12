@@ -175,8 +175,12 @@ boolean validateViewHolderForOffsetPosition(ViewHolder holder) {
 大体意思是我们要重写getItemId方法给他一个不同位置的唯一标识，并且hasStableIds返回true的时候应该返回相同的数据集
 
 那么用setHasStableIds(true)的好处就显而易见了。 
+```
 1. setHasStableIds(true)
-In RecyclerView.Adapter, we need to set setHasStableIds(true); true means this adapter would publish a unique value as a key for item in data set. Adapter can use the key to indicate they are the same one or not after notifying data changed.
+       In RecyclerView.Adapter, we need to set setHasStableIds(true); true means this adapter would publish a unique value as a key for item in data set. Adapter can use the key to indicate they are the same one or not after notifying data changed.
+
 2. override getItemId(int position)
-Then we must override getItemId(int position), to return identified long for the item at position. We need to make sure there is no different item data with the same returned id.
-After using stable Id, RecyclerView would try to use the same viewholder and view for the same id. This would reduce blinking issue after data changed.
+       Then we must override getItemId(int position), to return identified long for the item at position. We need to make sure there is no different item data with the same returned id.
+
+3. After using stable Id, RecyclerView would try to use the same viewholder and view for the same id. This would reduce blinking issue after data changed.
+```
