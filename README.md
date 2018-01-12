@@ -28,7 +28,9 @@ ln -s /usr/lib64/libstdc++.so.6 sdk-path/emulator/lib64/libstdc++
 ```
 
 # 4. 分析Messaging数据库
-
+``
+参考http://www.sqlitetutorial.net/sqlite-index/
+``
 查看conversations表的索引
 ```
 sqlite> .indices conversations
