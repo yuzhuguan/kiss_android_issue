@@ -5,15 +5,15 @@
 - [4. 分析Messaging数据库](#4_分析Messaging数据库)
 - [5. RecyclerView一个异常问题](#5_RecyclerView一个异常问题)
 
-## kiss_android_issue
+# 1. kiss_android_issue
 
 拥抱android各种技术，再来一个深深的kiss
 
-## Android_Threading_Performance
+# 2. Android_Threading_Performance
 
 [![alt text](https://vthumb.ykimg.com/0541040856CD0EEC6A0A490451CEE5A5)](http://player.youku.com/embed/XMTQ4MDU3Nzc3Mg==)
 
-## ubuntu16.04_cannot_start_emulator
+# 3. ubuntu16.04_cannot_start_emulator
 
 升级到android8.1的sdk后，发现模拟器竟然无法启动了
 解决方法如下：
@@ -27,7 +27,7 @@ ln -s /usr/lib64/libstdc++.so.6 sdk-path/emulator/lib64/libstdc++
 
 ```
 
-## 分析Messaging数据库
+# 4. 分析Messaging数据库
 
 查看conversations表的索引
 ```
@@ -61,7 +61,7 @@ Run Time: real 0.000 user 0.000000 sys 0.000000
 4. 索引不应该使用在含有大量的 NULL 值的列上
 5. 索引不应该使用在频繁操作的列上
 
-## RecyclerView一个异常问题
+# 5. RecyclerView一个异常问题
 
 调用notifyItemRemoved(0)后引起的问题 (ps:正常的使用无论是items数组 or cursor都是没有问题的，
 因为在里面动态加入删除一些type及影响了itemcount才引起的问题)：
