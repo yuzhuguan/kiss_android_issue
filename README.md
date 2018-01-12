@@ -63,7 +63,7 @@ Run Time: real 0.000 user 0.000000 sys 0.000000
 4. 索引不应该使用在含有大量的 NULL 值的列上
 5. 索引不应该使用在频繁操作的列上
 
-..测试INDEX..
+[测试INDEX]
 ```
 sqlite> EXPLAIN QUERY PLAN SELECT * FROM conversations where sms_thread_id='106';
 0|0|0|SEARCH TABLE conversations USING INDEX index_conversations_sms_thread_id (sms_thread_id=?)
