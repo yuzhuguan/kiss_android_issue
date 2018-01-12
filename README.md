@@ -63,6 +63,14 @@ Run Time: real 0.000 user 0.000000 sys 0.000000
 4. 索引不应该使用在含有大量的 NULL 值的列上
 5. 索引不应该使用在频繁操作的列上
 
+..测试INDEX..
+```
+sqlite> EXPLAIN QUERY PLAN SELECT * FROM conversations where sms_thread_id='106';
+0|0|0|SEARCH TABLE conversations USING INDEX index_conversations_sms_thread_id (sms_thread_id=?)
+sqlite> SELECT * FROM conversations where sms_thread_id='106';
+5|106|测试5|6|【格瓦拉】6月27日周五16:00国金百丽宫影院变形金刚ⅣH排9座等2张票已定，凭码2077777777777至影院自助取票机取票||||0|||||0|1512541613485|0|messaging://avatar/r?m=content%3A%2F%2Fcom.android.contacts%2Fcontacts%2F5%2Fphoto&f=messaging%3A%2F%2Favatar%2Fl%3Fn%3D%25E6%25B5%258B%25E8%25AF%25955%26i%3D3176r5-55A087031C|5|3176r5-55A087031C|10657109080335|1|1|1||1|0|
+```
+
 # 5. RecyclerView一个异常问题
 
 调用notifyItemRemoved(0)后引起的问题 (ps:正常的使用无论是items数组 or cursor都是没有问题的，
